@@ -280,15 +280,24 @@
               <span class="h3">Early access</span>
               <p>Be the first to know when we launch</p>
               <div>
-                <input
-                  type="email"
-                  id="exampleInputEmail1"
-                  aria-describedby="emailHelp"
-                  placeholder="Enter your email here"
-                />
-                <button class="btn btn-primary">
-                  Sign up for early access
-                </button>
+                <div id="subscribe-confirmation2" style="display:none">
+                  <span class="h3 text-info">Thank your for subscribing to early access!</span>
+                  <p class="text-info">You will hear from Swearby soon...</p>
+                </div>
+                <form id="subscribe-form2">
+                  <input
+                    type="email"
+                    id="email2"
+                    name="email"
+                    class="py-1 me-2 mb-2"
+                    aria-describedby="emailHelp"
+                    placeholder="Enter your email here"
+                  />
+                  <input style="display:none" type="text" name="hidden" />
+                  <button class="btn btn-secondary btn-grad ms-lg-2">
+                    Sign up for early access
+                  </button>
+                </from>
               </div>
             </footer>
           </div>
